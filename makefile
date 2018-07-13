@@ -1,2 +1,2 @@
-test.exe:test.c
+test.exe:test.cpp
 	g++ $< -o $@ 	
