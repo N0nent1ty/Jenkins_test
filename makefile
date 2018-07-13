@@ -1,2 +1,3 @@
+CFLAG=-lgtest -lpthread
 test.exe:test.cpp
-	g++ $< -o $@ 	
+	g++ ${CFLAG} $< -o $@ 	
